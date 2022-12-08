@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'fontBold';
+    src: url('../fonts/fontBold.ttf');
+    src: url('../fonts/fontBold.woff') format('woff'),
+        url('../fonts/fontBold.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+A:active {
+    color: #FF0000
+}
+
+A:hover {
+    color: #FF0000
+}
+
+A:link {
+    color: #0000FF
+}
+
+A:visited {
+    color: #0000FF
+}
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    font-family: 'fontBold', sans-serif;
+    overflow: hidden;
+    background-color: #005500;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.clear {
+    width: 100%;
+    clear: both;
+}
+
+a {
+    outline: 0;
+    border: 0;
+}
+
+#daysboxDiv,
+#hoursboxDiv,
+#minsboxDiv,
+#secsboxDiv {
+    width: 100%;
+    max-width: 220px;
+    min-width: 220px;
+    padding: 5px;
+    height: 250px;
+}
+
+
+.boxImgTree {
+    background: url(../imgs/tree.png) no-repeat;
+    vertical-align: bottom;
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.boxImgPresent {
+    background: url(../imgs/present.png) no-repeat;
+    vertical-align: bottom;
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+
+.boxImgSnow {
+    background: url(../imgs/snow.png) no-repeat;
+    vertical-align: bottom;
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.boxImgReindeer {
+    background: url(../imgs/reindeer.png) no-repeat;
+    vertical-align: bottom;
+    display: table-cell;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
