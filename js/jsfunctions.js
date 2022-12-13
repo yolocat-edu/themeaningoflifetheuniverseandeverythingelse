@@ -5,7 +5,7 @@ function CountMeDown() {
 
   var intYear = dteNow.getFullYear();
 
-  var toTime = new Date("December 24, " + intYear + " 23:00:01"); // CHANGE ME
+  var toTime = new Date("December 24, " + intYear + " 00:00:00"); // CHANGE ME
   var now = new Date();
   var difference = toTime.getTime() - now.getTime();
 
